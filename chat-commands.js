@@ -39,7 +39,7 @@ const commands = {
 	},
 	
 	'!test': true,
-	version: function (target, room, user) {
+	test: function (target, room, user) {
 		if (!this.runBroadcast()) return;
 		this.sendReplyBox('<h1>This is an test command, you can edit this to make cooler things!</h1>\nYou can use html tags <u>too!</u>');
 	},
